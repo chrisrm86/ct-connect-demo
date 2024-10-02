@@ -6,14 +6,14 @@ import { PERMISSIONS, entryPointUriPath } from './src/constants';
 const config = {
   name: 'Starter 1aeb56',
   entryPointUriPath,
-  cloudIdentifier: 'gcp-us',
+  cloudIdentifier: '${env:CLOUD_IDENTIFIER}',
   env: {
     development: {
       initialProjectKey: 'ct-connect-demo',
     },
     production: {
-      applicationId: 'TODO',
-      url: 'https://your_app_hostname.com',
+      applicationId: '${env:CUSTOM_APPLICATION_ID}',
+      url: '${env:APPLICATION_URL}',
     },
   },
   oAuthScopes: {
