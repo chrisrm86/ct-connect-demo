@@ -1,7 +1,6 @@
 deployAs:
   - name: ct-connect-demo
-    applicationType: mc-app
-    endpoint: /
+    applicationType: merchant-center-custom-application
     configuration:
       standardConfiguration:
         - key: CUSTOM_APPLICATION_ID
