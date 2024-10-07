@@ -4,7 +4,7 @@ import { PERMISSIONS, entryPointUriPath } from './src/constants';
  * @type {import('@commercetools-frontend/application-config').ConfigOptionsForCustomApplication}
  */
 const config = {
-  name: 'Starter 1aeb56',
+  name: 'ct-connect-demo',
   entryPointUriPath,
   cloudIdentifier: '${env:CLOUD_IDENTIFIER}',
   env: {
